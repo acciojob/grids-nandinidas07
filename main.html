@@ -1,46 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Bootstrap Grid Layout</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <div class="container custom-container">
 
     <!-- Row 1 -->
-    <div class="row custom-row">
-      <div class="col-md-4 col-6 custom-col teal-bg">
-        Row1 col1
-      </div>
-      <div class="col-md-8 col-6 custom-col thistle-bg">
-        Row1 col2
-      </div>
+    <div class="row justify-content-between custom-row">
+      <div class="col-md-4 col-sm-6 r1c1 custom-col teal-bg">Row1 col1</div>
+      <div class="col-md-8 col-sm-6 r1c2 custom-col thistle-bg">Row1 col2</div>
     </div>
 
     <!-- Row 2 -->
     <div class="row custom-row">
-      <div class="col-md-4 offset-md-2 col-6 custom-col tomato-bg">
-        Row2 col1
-      </div>
-      <div class="col-md-4 col-6 custom-col turquoise-bg">
-        Row2 col2
-      </div>
+      <div class="col-md-4 offset-md-2 col-sm-6 r2c1 custom-col tomato-bg">Row2 col1</div>
+      <div class="col-md-4 col-sm-6 r2c2 custom-col turquoise-bg">Row2 col2</div>
     </div>
 
     <!-- Row 3 -->
     <div class="row justify-content-center custom-row">
-      <div class="col-md-4 col-6 custom-col violet-bg">
-        Row3 col1
-      </div>
-      <div class="col-md-4 col-6 custom-col yellowgreen-bg">
-        Row3 col2
-      </div>
+      <div class="col-md-4 col-sm-6 r3c1 custom-col violet-bg">Row3 col1</div>
+      <div class="col-md-4 col-sm-6 r3c2 custom-col yellowgreen-bg">Row3 col2</div>
     </div>
 
   </div>
-
 </body>
 </html>
